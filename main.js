@@ -27,4 +27,5 @@ function addVkPost() {
 }
 
 addVkPost();
+document.querySelector("#page-header > h1 > div:nth-child(1) > a > img").src = "https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/newBeisuLogo.jpg";
 //alert("Helloy bebra world :))");
