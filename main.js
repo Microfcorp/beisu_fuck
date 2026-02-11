@@ -26,4 +26,5 @@ function addVkPost() {
   }
 }
 
-alert("Helloy bebra world :))");
+addVkPost();
+//alert("Helloy bebra world :))");
