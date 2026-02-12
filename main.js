@@ -28,7 +28,7 @@ function addVkPost() {
 
 addVkPost();
 var nonLOL = document.querySelector("#page-header > div.headermenu > div").textContent.toLowerCase();
-if(nonLOL.indexOf("белов") == -1 && nonLOL.indexOf("олейник") == -1){
+if(nonLOL.indexOf("белов") == -1 && nonLOL.indexOf("олейник") == -1 && nonLOL.indexOf("голощапова") == -1 && nonLOL.indexOf("головко") == -1){
   document.querySelector("#page-header > h1 > div:nth-child(1) > a > img").src = "https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/newBeisuLogo.jpg";
   alert("Приглашаем вас на лучшего студента ИИиЦТ, который пройдет 27 февраля в 14:30 по МСК. Старостам всех групп присутствие без уважительной причины - обязательно (в противном случае поднимется вопрос о вашем увольнении)! Так же, все кандидаты на ПГАС - присутствие обязательно, в противном случае у вас не будет право подачи на ПГАС. Уважаемые коллеги, поддержите свой институт - придите на мероприятие!");
 }
