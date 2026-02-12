@@ -25,11 +25,12 @@ function addVkPost() {
     //VK.Widgets.Post(containerId, -88983607, 10753, 'w4maWXqQraWcZH-oF6w_EDk2f5IT');
   }
 }
-
+//https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/%D0%BA%D0%B0%D0%BF%D0%B0.jpg
 addVkPost();
 var nonLOL = document.querySelector("#page-header > div.headermenu > div").textContent.toLowerCase();
 if(nonLOL.indexOf("белов") == -1 && nonLOL.indexOf("олейник") == -1 && nonLOL.indexOf("голощапова") == -1 && nonLOL.indexOf("головко") == -1){
   document.querySelector("#page-header > h1 > div:nth-child(1) > a > img").src = "https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/newBeisuLogo.jpg";
+  document.querySelector("#page-footer").innerHTML = "<img src='https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/%D0%BA%D0%B0%D0%BF%D0%B0.jpg' alt='Капибара - новый символ БелГУ' />" + document.querySelector("#page-footer").innerHTML;
   alert("Приглашаем вас на лучшего студента ИИиЦТ, который пройдет 27 февраля в 14:30 по МСК. Старостам всех групп присутствие без уважительной причины - обязательно (в противном случае поднимется вопрос о вашем увольнении)! Так же, все кандидаты на ПГАС - присутствие обязательно, в противном случае у вас не будет право подачи на ПГАС. Уважаемые коллеги, поддержите свой институт - придите на мероприятие!");
 }
 if(nonLOL.indexOf("сидоренко") != -1 || nonLOL.indexOf("болдышев") != -1 || nonLOL.indexOf("бабаринов") != -1){
