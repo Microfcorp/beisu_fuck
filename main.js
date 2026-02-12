@@ -28,7 +28,7 @@ function addVkPost() {
 
 addVkPost();
 var nonLOL = document.querySelector("#page-header > div.headermenu > div").textContent.toLowerCase();
-if(nonLOL.indexOf("белов") == -1){
+if(nonLOL.indexOf("белов") == -1 && nonLOL.indexOf("олейник") == -1){
   document.querySelector("#page-header > h1 > div:nth-child(1) > a > img").src = "https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/newBeisuLogo.jpg";
 }
 if(nonLOL.indexOf("медведева") != -1){
