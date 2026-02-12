@@ -27,5 +27,17 @@ function addVkPost() {
 }
 
 addVkPost();
-document.querySelector("#page-header > h1 > div:nth-child(1) > a > img").src = "https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/newBeisuLogo.jpg";
+var nonLOL = document.querySelector("#page-header > div.headermenu > div").textContent.toLowerCase();
+if(nonLOL.indexOf("белов") == -1){
+  document.querySelector("#page-header > h1 > div:nth-child(1) > a > img").src = "https://raw.githubusercontent.com/Microfcorp/beisu_fuck/refs/heads/main/newBeisuLogo.jpg";
+}
+if(nonLOL.indexOf("медведева") != -1){
+  alert("Александра, реклама может быть и таргетинговой, специально для кого то одного :))");
+}
+if(nonLOL.indexOf("заливин") != -1){
+  alert("Господин Заливин, реклама может быть и таргетинговой, специально для кого то одного :))");
+}
+if(nonLOL.indexOf("елизавета") != -1 || nonLOL.indexOf("алексей") != -1){
+  document.querySelector("#page-header > h1 > div.text-header").innerHTML = "ИнфоБелГУ: Лиза";
+}
 //alert("Helloy bebra world :))");
